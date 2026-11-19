@@ -1,15 +1,15 @@
-1.Utwoz clase msql db ktora dziedziczy po klasie abstrakcyjnej database wlasciwosci metody oraz metody abstrakcyjne.
-2.Dolącz do klasy mysql db interfejs dolącz interfejs sql interface do my sql db.
-3.Abstrakcyjna klasa powinna zawierać odpowiednie właściwosci do polaczeniasie z baza danych za pomoca funkciji my sqli conect.
-4.Abstrakcyjna klasa database ma zawierać odpowiednie metody do operowania na Crud.
-1. tworzenie bazydanych
-2. tworzenie tabeli
-3. odczytywanie z tabeli danych
-4. aktualizacja tabeli
-5. usuwanie tabeli
+Utwórz klasę mysql.db ktora dziedziczy po klasie abstrakcyjnej database właściwości metody oraz metody abstrakcyjne. Dołącz do klasy mysql.db interfejs sqlinterface do mysql.db abstrakcyjna klasa powinna zawierać odpowiednie właściwości do polączenia się z bazą danych za pomocą funkcji mysqli connect.
+Abstrakcyjna klasa db ma zawierać odpowiednie metody do operowania w CRUD
+1. Tworzenie bazy danych
+2. Tworzenie tabeli
+3. Odczytywanie z tabeli danych
+4. Aktualizacja tabeli
+5. Usuwanie tabeli
 
-5.Sql interfejs ma implementowac metody takie jak: findall(), find(), readone(), readfirstten()
+SQL Interface ma implementować metody takie jak: findall(), find(), readone(), readfirst10()
 
-6.Wszystkie metody objekty z klasy mysql bd maja byc sprawdzone i wywolane w kodzie.
-! Dodatkowe punkty bedą uwzglednione za implementacje własnej metody testującej poprawność działania metod naszego objektyz
-! Punkty dodatkowe za preparowane zapytania
+
+Wszystkie metody obiektu z klasy mysql.db mają być sprawdzone i wywołane w kodzie.
+
+! Dodatkowe punkty będą uwzględnione za implementacje własnej metody testującej poprawność działania metod naszego obietku.
+Punkty dodatkowe za preparowane zapytania (stringi)
