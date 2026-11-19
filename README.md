@@ -2,11 +2,11 @@
 2.Dolącz do klasy mysql db interfejs dolącz interfejs sql interface do my sql db.
 3.Abstrakcyjna klasa powinna zawierać odpowiednie właściwosci do polaczeniasie z baza danych za pomoca funkciji my sqli conect.
 4.Abstrakcyjna klasa database ma zawierać odpowiednie metody do operowania na Crud.
-    1. tworzenie bazydanych
-    2. tworzenie tabeli
-    3. odczytywanie z tabeli danych
-    4. aktualizacja tabeli
-    5. usuwanie tabeli
+1. tworzenie bazydanych
+2. tworzenie tabeli
+3. odczytywanie z tabeli danych
+4. aktualizacja tabeli
+5. usuwanie tabeli
 
 5.Sql interfejs ma implementowac metody takie jak: findall(), find(), readone(), readfirstten()
 
